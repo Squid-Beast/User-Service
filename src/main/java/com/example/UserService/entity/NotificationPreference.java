@@ -21,6 +21,6 @@ public class NotificationPreference {
     @Column(name = "email_enabled")
     private boolean emailEnabled;
     @ManyToOne
-    @JoinColumn(name = "user_id",referencedColumnName = "id")
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
     private User user;
 }
